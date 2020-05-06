@@ -1,0 +1,13 @@
+disabled_rules: # rule identifiers to exclude from running
+
+opt_in_rules: # some rules are only opt-in
+  - force_unwrapping
+  - opening_brace
+  
+# configurable rules can be customized from this configuration file
+# binary rules can set their severity level
+
+force_unwrapping:
+  severity: error
+
+reporter: "xcode" # reporter type (xcode, json, csv, checkstyle, junit, emoji)
