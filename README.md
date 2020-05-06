@@ -2,7 +2,9 @@
 
 ![Preview](/images/preview.png)
 
-This step generates the swiftlint report and saves it to a file in the bitrise deploy folder. It produces 2 environment variables, one with the report and the other one with the path to the report file. The first variable is useful if you want to p pass your report directly to somewhere, for example a Slack channel. The second variable is useful if you want to process the report file further, for example upload it to S3 or attach it to a pull request. Finally, this step is compatible with the Bitrise test reports add-on, so in case the linting fails, you can easily see the details there.
+This step generates the swiftlint report and saves it to a file in the bitrise deploy folder. It produces 2 environment variables, one with the report and the other one with the path to the report file. The first variable is useful if you want to pass your report directly to somewhere, for example a Slack channel. The second variable is useful if you want to process the report file further, for example upload it to S3 or attach it to a pull request. 
+
+Finally, as you can see on the preview above, this step is compatible with the Bitrise test reports add-on, so in case the linting fails, you can easily see the details there.
 
 
 ## How to use this Step
