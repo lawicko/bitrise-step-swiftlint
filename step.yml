@@ -90,7 +90,7 @@ inputs:
 
   - strict: "no"
     opts:
-      title: "Select yest if you want to use the strict mode"
+      title: "Select yes if you want to use the strict mode"
       summary: ""
       description: |-
         When using the strict mode, the warnings will become errors.
